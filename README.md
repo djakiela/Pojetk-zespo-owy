@@ -44,7 +44,7 @@ The SPA Reservation System is a console-based application written in Java that a
     ```
 2. **Navigate to the project directory:**
     ```sh
-    cd Projekt-zespo-owy/SPA
+    cd Projekt-zespolowy/SPA
     ```
 3. **Build the project using Maven:**
     ```sh
