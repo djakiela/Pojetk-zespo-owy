@@ -1,0 +1,16 @@
+pl\wsb\spa\services\SpaService.class
+pl\wsb\spa\models\Accommodation.class
+pl\wsb\spa\models\Treatment.class
+pl\wsb\spa\interfaces\SpaCapability.class
+pl\wsb\spa\services\LuggageService.class
+pl\wsb\spa\exceptions\TreatmentNotFoundException.class
+pl\wsb\spa\services\SpecialService.class
+pl\wsb\spa\exceptions\InvalidTreatmentDataException.class
+pl\wsb\spa\Main.class
+pl\wsb\spa\exceptions\TreatmentReservedException.class
+pl\wsb\spa\models\Client.class
+pl\wsb\spa\services\TimeService.class
+pl\wsb\spa\exceptions\ClientNotFoundException.class
+pl\wsb\spa\models\TreatmentReservation.class
+pl\wsb\spa\exceptions\ReservationNotFoundException.class
+pl\wsb\spa\models\Spa.class

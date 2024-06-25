@@ -1,27 +1,23 @@
 package pl.wsb.spa.services;
 
-import pl.wsb.spa.exceptions.ClientNotFoundException;
-import pl.wsb.spa.exceptions.ReservationNotFoundException;
-import pl.wsb.spa.exceptions.TreatmentNotFoundException;
-import pl.wsb.spa.exceptions.TreatmentReservedException;
-import pl.wsb.spa.exceptions.InvalidTreatmentDataException;
+import pl.wsb.spa.exceptions.*;
 import pl.wsb.spa.interfaces.SpaCapability;
-import pl.wsb.spa.models.Spa;
-import pl.wsb.spa.models.Client;
-import pl.wsb.spa.models.Treatment;
-import pl.wsb.spa.models.TreatmentReservation;
-import pl.wsb.spa.models.Accommodation;
+import pl.wsb.spa.models.*;
 
 import java.time.LocalDate;
+import java.util.Collection;
 import java.util.UUID;
-import java.util.*;
 import java.util.stream.Collectors;
 
 public class SpaService implements SpaCapability {
-    final Spa spa;
+    public final Spa spa;
 
     public SpaService(Spa spa) {
         this.spa = spa;
+    }
+
+    public Spa getSpa() {
+        return spa;
     }
 
     // overriden methods from interface
